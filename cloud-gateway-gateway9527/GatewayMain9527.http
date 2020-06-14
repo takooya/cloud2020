@@ -1,0 +1,18 @@
+GET http://localhost:9527/payment/get/1
+
+###
+GET http://localhost:9527/payment/get/1?username=takooya
+
+###
+GET http://localhost:9527/payment/discovery
+
+###
+GET http://localhost:9527/payment/lb
+
+###
+GET http://localhost:9527/payment/lb?username=takooya
+Cookie: username=takooya
+X-Request-Id: 32561783
+
+###
+

@@ -1,0 +1,8 @@
+GET http://localhost:80/consumer/payment/get/7
+
+###
+
+GET http://localhost:80/consumer/payment/feign/timeout
+
+###
+
