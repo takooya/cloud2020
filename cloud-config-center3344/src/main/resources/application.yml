@@ -12,10 +12,10 @@ spring:
         # http://server:port/{application}-{label}.yml
         # http://server:port/{application}/{label}/{分支名} //返回JSON
         git:
-          uri: https://github.com/takooya/atguigu_cloud_config.git
+          uri: https://github.com/takooya/cloud2020.git
           ### 搜索目录
           search-paths:
-            - atguigu_cloud_config
+            - cloud2020/cloud-config
       ### 读取分支
       label: master
 eureka:
