@@ -1,8 +1,0 @@
-server:
-  port: 8005
-spring:
-  application:
-    name: cloud-provider-payment
-  cloud:
-    zookeeper:
-      connect-string: 47.95.198.96:2181

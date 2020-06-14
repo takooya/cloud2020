@@ -1,6 +1,0 @@
-GET http://localhost:3355/config/get
-
-###
-POST http://localhost:3355/actuator/refresh
-
-###
