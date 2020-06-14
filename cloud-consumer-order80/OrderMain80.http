@@ -1,0 +1,7 @@
+GET http://localhost:80/consumer/payment/create?serial=test006
+
+###
+GET http://localhost:80/consumer/payment/get/7
+
+###
+

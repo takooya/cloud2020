@@ -1,0 +1,15 @@
+GET http://localhost:80/consumer/payment/hystrix/ok/2
+
+###
+GET http://localhost:80/consumer/payment/hystrix/timeout/3
+
+###/consumer/payment/hystrix/try_time/
+GET http://localhost:80/consumer/payment/hystrix/try_time/3
+
+###
+GET http://localhost:80/consumer/payment/hystrix/paymentInfo_default/5
+
+###
+GET http://localhost:80/consumer/payment/hystrix/payment_circuit_breaker/-5
+
+###
