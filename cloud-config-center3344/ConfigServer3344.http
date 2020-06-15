@@ -1,4 +1,15 @@
 GET http://config-3344.com:3344/master/config-test.yml
 
 ###
+POST http://config-3344.com:3344/actuator/bus-refresh
 
+###
+GET http://localhost:3344/master/config-test.yml
+
+###
+POST http://localhost:3344/actuator/bus-refresh
+
+###
+POST http://localhost:3344/actuator/bus-refresh/config-client:3355
+
+###
